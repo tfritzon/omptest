@@ -1,0 +1,4 @@
+omptest
+=======
+
+OpenMP tests
