@@ -19,7 +19,7 @@ main(int argc, char *argv[])
   int i;
   float *a;
 
-  a= calloc(N, sizeof(int));
+  a= calloc(N, sizeof(float));
 
   #pragma omp parallel for
   for (i = 0; i < N; i++)
