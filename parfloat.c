@@ -7,7 +7,7 @@ work(x)
   float y= 0;
 
   for( i= 0; i < 20000; i++ )
-    y+= i*0.001;
+    y+= i;
 
   return y;
 }
